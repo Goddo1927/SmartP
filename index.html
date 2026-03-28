@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[SmartP] - Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>[SmartP]</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Prodotti</a></li>
+                <li><a href="#" id="cart-count">Carrello (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Benvenuti su [SmartP]</h2>
+            <p>[Benvenuti in SmartP il futuro della tua felicità]</p>
+        </section>
+
+        <section class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="[Pacchetto_1]">
+                <h3>[Serata]</h3>
+                <p class="price">€ [150]</p>
+                <button onclick="addToCart('[Pacchetto_1]')">Aggiungi al carrello</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="[Pacchetto_2]">
+                <h3>[Serata FULL + S]</h3>
+                <p class="price">€ [250]</p>
+                <button onclick="addToCart('[Pacchetto_2]')">Aggiungi al carrello</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [SmartP] - Creato con GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
